@@ -1,4 +1,13 @@
 # LogProject
-A System for log analysing from Electronic business platform.
-This LogProject is divided into several stages.
-You should look in order.
+这是一个电商数据的分析平台。
+主要是利用分布式原理搭建大数据分布式计算平台。
+这个项目主要是针对传统的电商平台的后台数据进行清洗整理，最后进行分析，然后将其以图形比例的形式表示出来。
+模块：1、用户基本信息分析模块
+    2、浏览器信息分析模块
+    3、地域信息分析模块
+    4、用户访问深度分析模块
+    5、外链数据分析模块
+    6、订单数据分析模块
+    7、事件分析模块
+ 这是这个项目要分析的几个模块，我们将电商后台服务器nginx的日志数据利用flume收集，将其上传到hdfs，再利用mapreduce进行分布式计算，写入nosql为原型的hbase数据库，再编写mapreduce将其写入mysql进行数据分析。
+ 这个项目分为几个阶段，暂时用普通的方法和变成技巧以及计算模型框架进行处理分析。
