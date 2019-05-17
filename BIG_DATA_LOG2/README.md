@@ -1,0 +1,2 @@
+这个阶段主要是针对电商平台进行模拟，由js和javasdk发送给linux中nginx服务器的数据，并且由nginx定义的访问日志格式（^A）由特定的符号进行分割。
+主要分为AnalyticsEngineSDK 和 SendDataMonitor进行模拟。
