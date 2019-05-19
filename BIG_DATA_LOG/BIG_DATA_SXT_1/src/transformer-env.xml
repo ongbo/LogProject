@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+      <name>mysql.batch.number</name>
+      <value>10</value>
+    </property>
+
+	<property>
+	  <name>mysql.report.driver</name>
+	  <value>com.mysql.cj.jdbc.Driver</value>
+	</property>
+<!--	<property>-->
+<!--		<name>javax.jdo.option.ConnectionURL</name>-->
+<!--		<value>jdbc:mysql://192.168.40.135:3306/result_db</value>-->
+<!--	</property>-->
+	<property>
+	  <name>mysql.report.url</name>
+	  <value>jdbc:mysql://192.168.40.135:3306/result_db?useUnicode=true&amp;characterEncoding=utf8</value>
+	</property>	
+
+	<property>
+	  <name>mysql.report.username</name>
+	  <value>root</value>
+	</property>	
+
+	<property>
+	  <name>mysql.report.password</name>
+	  <value>XBxb0525@</value>
+	</property>	
+</configuration>
